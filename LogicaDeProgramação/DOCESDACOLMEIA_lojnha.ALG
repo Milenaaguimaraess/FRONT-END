@@ -6,7 +6,21 @@ Algoritmo "DocesDaColmeia_lojinha"
 Var
 opcao: caractere
 valorTotal: real
+ //inicio adicionar carrinho
+procedimento AdicionarAoCarrinho(vp: real) // valor do produto: vp (é uma var temporária (adicionar))
 
+   var
+   nomep: caractere
+
+   INICIO
+   escreval("Digite o nome do produto: ")
+   leia(nomep)
+  escreval ("item " , nomep , " adicionado!")
+  valorTotal <- valorTotal + vp
+  escreval ("Valor Total do carrinho R$:", valorTotal)
+   
+fimprocedimento
+//fim AdicionarCarrinho
 
 Inicio
 escreval("*******CATALOGO*******")
@@ -23,29 +37,23 @@ leia (opcao)
 // switch / case - escolha caso
  escolha (opcao)
   caso "1"
-    escreval ("item TRUFA X 1 adicionado!")
-    valorTotal <- valorTotal + 8,00
-    escreval ("Valor Total do carrinho R$:", valorTotal)
+     AdicionarAoCarrinho(8)
   caso "2"
-    escreval ("item BOLO NO POTE X 1 adicionado")
-    valorTotal <- valorTotal + 10,00
-    escreval ("Valor Total do carrinho R$:", valorTotal)
-
+     AdicionarAoCarrinho(10)
   caso "3"
-    escreval ("item COPO DA FELICIDADE X 1 adicionado")
-    valorTotal <- valorTotal + 15,00
-    escreval ("Valor Total do carrinho R$:", valorTotal)
+     AdicionarAoCarrinho(15)
   caso "4"
-    escreval ("item DOCINHO X 1 adicionado")
-    valorTotal <- valorTotal + 3,00
-    escreval ("Valor Total do carrinho R$:", valorTotal)
+     AdicionarAoCarrinho(3)
   caso "5"
-    escreval ("item PUDIM X 1 adicionado")
-    valorTotal <- valorTotal + 25,00
-    escreval ("Valor Total do carrinho R$:", valorTotal)
+     AdicionarAoCarrinho(25)
   caso "6"
-    escreval ("Compra Cancelada! :(")
+    escreval ("Compra Cancelada! :( ")
+   outrocaso
+     escreval("Opção inválida!")
+    
+// 28/10/2024 - REFATORAÇÃO E FRAÇÃO
 
+// quando trabalha com funções, é pré-programado uma palavra específica/personalizada
   
     
  fimescolha

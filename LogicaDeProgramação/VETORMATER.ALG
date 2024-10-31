@@ -14,7 +14,8 @@ Escreval("-----LISTA DE ALUNOS-----")
 para i de 1 ate 5 faca
      escreval("")
      escreval("----------")
-     escreval("Aluno(a) ",alunos[1])
+     escreval("Aluno(a) ",alunos[i])
+     escreval("----------")
      escreval("")
   fimpara
 Fimalgoritmo

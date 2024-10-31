@@ -1,25 +1,20 @@
-Algoritmo "VetorMater"
-  //rascunho
+Algoritmo "VetorMater2"
+
 Var
-testeSimples , i : inteiro  // uma gaveta só
-nomes : vetor[1..3] de caractere // um armario
+alunos: vetor[1..5] de caractere
+i: inteiro
 
 Inicio
-testeSimples <- 3
-testeSimples <- 5
-
-nomes[2] <- "Victor"
-nomes[3] <- "Bruna"
-nomes[1] <- "Alessandro"
-
-leia(nomes[2])
-
-para i de 1 ate 3 faca
-     escreval(nomes[i])
-
+para i de 1 ate 5 faca
+     leia(alunos[i])
 fimpara
 
-//sobreescrever :
-
-
+limpatela()
+Escreval("-----LISTA DE ALUNOS-----")
+para i de 1 ate 5 faca
+     escreval("")
+     escreval("----------")
+     escreval("Aluno(a) ",alunos[1])
+     escreval("")
+  fimpara
 Fimalgoritmo

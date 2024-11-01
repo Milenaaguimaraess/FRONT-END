@@ -7,7 +7,7 @@ Var
 procedimento teste()
 // É VISADO PARA RODAR ETAPAS
 // dentro do procedimento, as var. são temporarias e
-// fora, as var. existiram o tempo todo
+// fora,- as var. existiram o tempo todo
    var
    nome: caractere
    

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+    <!-- Metodo 1 - link (puxa arquivo externo) -->
+    <!-- metodo 2 - tag style (puxa tag para abrir um espço no html)  -->
+    <!-- Metodo 3 - atributo style (puxa atributo direto no elemento) -->
+    <link rel="stylesheet" href="estilo.css">
+    <!-- tag style está no head, com o (.) chamei a classe "para", {} serve para fechar  -->
+    <style>
+     .para{ 
+        /* color- cor da fonte */
+        color: rgb(207, 240, 116);
+        /* font family - tipografia */
+        font-family: fantasy;
+        /*  background color - cor de fundo */
+        background-color: rgb(15, 163, 72);
+     } 
+
+     body{
+        background-color: rgb(17, 107, 36);
+     }
+     
+     h1{
+        color: rgb(38, 156, 235);
+        /* text align - alinhar texto no centro */
+        text-align: center;
+        /* margin - margem externa */
+        margin: 20px;
+        /* padding - margem interna */
+        padding: 20px;
+        /* border - borda (tipo, largura, cor) */
+        border: 1px solid white;
+     }
+
+     #destacado{
+        background-color: rgb(83, 9, 71);
+     }
+    </style>
+</head>
+<body>
+ <h1 id="destacado">TITULO</h1>
+ <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sit, reprehenderit aspernatur eligendi unde nihil nobis quisquam illum fuga assumenda at adipisci eos debitis laudantium suscipit sunt aut quasi accusantium.</p>
+ 
+ <h1>TITULO2</h1>
+<h2>subttitulo</h2>
+<p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime deleniti pariatur fuga maiores quas, a fugit explicabo harum qui porro repellendus commodi minima blanditiis tenetur adipisci architecto asperiores quod?</p>
+
+<img src="whatsapp-image-2022-01-03-at-15.34.35.jpeg" alt="">
+</body>
+
+<!-- a palavra style se refere ao css -->
+</html>

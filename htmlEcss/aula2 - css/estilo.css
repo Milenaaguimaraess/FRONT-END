@@ -1,0 +1,14 @@
+h2{
+    font-size: 4pt;
+    /* font size - tamanho da fonte */
+}
+
+img{
+    width: 600px;
+    /* Largura */
+    height: 600px;
+    /* altura */
+    border-radius: 100%;
+    /* arredondamento */
+    border: 5px solid black;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+
+  body{
+    background-color: rgb(241, 240, 145);
+  }
+
+  #cabecalho{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(63, 12, 12);
+    text-align: center;
+    color: rgb(236, 163, 68);
+    line-height: 90px;
+  }
+
+  #conteudo , #rodape {
+    width: 80%;
+    background-color: rgb(252, 226, 114);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(182, 172, 116);
+    padding: 10px;
+    /* padding se refere a algo interno */
+    margin: 25px;
+    /* margin se refere a algo fora */
+    /* há 3 possibilidades de espaçamento (20px 20px 20px):
+    1 valor 20px - todos os lados (ao quadrado) 
+    2 valores 20px 20 px- (plano cartesiano) eixo y; cima e baixo; eixo x: esquerda e direita
+    4 valores 20px 20px 20px 20px - especificar o valor de cada lado (cima, direira, baixo e esquerda); vai na orientação de um relógio*/
+    margin: 20px auto;  
+}
+
+img{
+    width: 100%;
+}

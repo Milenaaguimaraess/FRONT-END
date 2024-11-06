@@ -5,3 +5,17 @@ h1{
 p{
     font-size: 14px;
 }
+
+body{
+    text-align: center;
+
+}
+
+.esquerda{
+    text-align: start;
+}
+
+img{
+    width: 750px;
+    height: auto;
+}

@@ -35,5 +35,12 @@
 }
 
 img{
-    width: 100%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#img1{
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
 }

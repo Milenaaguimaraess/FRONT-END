@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(205, 218, 243);
+    /* deixando aqui só pra teste, mas posso remover se quiser */
+}
+
+header , footer{
+    width: 100%;
+    padding: 40px 0px; 
+    /* padding - espaçamento interno */
+    /* o 0px foi para tirar o bug q surgiu na lateral e aquela barrinha que apareceu  */
+    background-color: rgb(137, 173, 240);
+    color: rgb(243, 233, 233);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h2{
+/* a seleção acontecerá apenas no h2 */
+float: left;
+margin-left: 20px;
+}
+
+nav{
+    /*  float - flutuar para um lado! */
+    float: right;
+    margin-right: 20px;
+}
+
+nav a{
+    color: white;
+    /* text-decoration: ; é a decoração do texto  */
+    text-decoration: none;
+}
+
+#banner{
+    width: 80%;
+    height: 300px;
+    background-image: url(../images/praia.jpg);
+    color: rgb(0, 0, 0);
+    border-radius: 5%;
+
+    /*  background-image - chama a imagem; toda vez q quero colocar uma imagem no css, devo chamar url */
+    background-size: cover;
+    /* back..-size está relacionado c/ tamnhano, posso usar o 100% ou cover */
+    background-position: bottom;
+    /*  background-position - posição da imagem, em relação ao espaco: center; top; bottom */
+    margin: 20px auto;
+    text-align: center;
+    line-height: 300px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+}
+
+#sobrenos{
+    background-color: rgb(170, 192, 233);
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(99, 99, 231);
+
+}
+
+#sobrenos h1{
+    text-align: center;
+    color: rgb(56, 56, 231);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#sobrenos h2{
+    color: rgb(73, 73, 212);
+}

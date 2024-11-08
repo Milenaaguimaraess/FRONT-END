@@ -83,6 +83,27 @@ footer{
 #img{
     width: 100%;
     padding: 80px 0px;
+}
 
+.produto{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(143, 192, 224);
+   
+}
 
+#catalogo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produto img{
+    width: 100%;
 }

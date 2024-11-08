@@ -1,0 +1,60 @@
+*{
+   margin: 0%; 
+   padding: 0%;
+}
+
+/* em posicionamento, sempre devemos nos lembrar do elemento pai e filho. o pai q manda e o filho que obedece */
+.pai{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(36, 153, 153);
+    display: flex;
+    /* linha e coluna, tanto p/ tabela, quanto p/ posicionamento */
+    margin: 20px;
+}
+
+#pai1{
+    justify-content: space-around;
+    /* Justify - é o comando no alinhamento no eixo y; antigamente era left e right, mas agr é start(começo da linha) e End(fim da linha)*/
+    /*  space - algumas coisas é posicionamento centralizado e espaçado */
+    align-items: center;
+    /* align - items - alinhamento no eixo x;
+    start (left) - esquerda
+    end (right) - direita
+    center - centro
+    space - between -- joga os elementos na lateral
+    space - around -- jogas os elementos ma lateral com espaço */
+}
+
+#pai2{
+    /* gap - espaço entre os elementos */
+    gap: 20px;
+    /* wrap - joga os elementos caso não caibam na tela */
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+/*  quando trabalhamos c/ colunas e linhas em posicionamento:
+    row - linha;
+    column - coluna */
+}
+
+.filho{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.f1{
+    background-color: darkred;
+}
+
+.f2{
+    background-color: brown;
+}
+
+.f3{
+   background-color: firebrick; 
+}
+
+.f4{
+   background-color: crimson; 
+}

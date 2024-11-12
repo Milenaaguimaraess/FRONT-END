@@ -1,0 +1,71 @@
+/* animação step by step (frame pro frame, como coraline) */
+@keyframes animacao {
+    /* identifier - indentifica a animação, é onde tá azul */
+    0%{
+        background-color: rgb(0, 255, 0);
+    }
+    50%{
+        background-color: rgb(255, 136, 0);
+    }
+    100%{
+        background-color: rgb(0, 255, 0);
+    }
+}
+
+@font-face{
+    font-family: Darling;
+    src: url(../fonts/Darling.ttf);
+}
+
+@font-face{
+    font-family: chicago;
+    src: url(../fonts/chicago_4/Chicago.otf);
+}
+
+h1{
+    font-family: chicago, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "DM Serif Text", serif;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#caixa1{
+    background-color: yellow;
+    transform: 1s;
+    /* 1s - um segundo */
+}
+
+/* :: - pseudo-seletor, ajuda na hora de fazer eventos  */
+#caixa1:hover{
+    border-radius: 100%;
+    /* background-color: rgb(255, 81, 1); */
+    transition: 1s;
+    animation: 1s animacao infinite;
+}
+
+
+#caixa2{
+    background-color: rgb(18, 18, 206);
+    transition: 0.5s;
+}
+ 
+/* active: evento feito quando segura o botão do mouse */
+#caixa2:active{
+    width: 80%;
+    background-color: rgb(26, 31, 92);
+    transition: 0.5s;
+}
+
+#caixa3{
+    background-color: red;
+}

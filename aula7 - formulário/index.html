@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <!-- tags primeiro, link e css -->
+    <main>
+        <h1>FORMULARIOS</h1>
+        <!-- acton - sujeito que vai receber as info inseridas -->
+        <form action="#">
+            <!-- quando temos um recebimento (leia) colocamos a máquina p/ ler a info. inserida -->
+             <!-- NOME -->
+              
+        <div class="form-group">
+                <!-- label - auxiliador do input -->
+                <!-- essa div se refere apenas ao input do NOME -->
+                <!-- for - auxiliador para algum input, mas vai ler o id, se n colocar o id, ele n vai ler -->
+            <label for="nome">NOME: </label>
+                <input required type="text" id="nome">
+                <!-- required - mostra q a o dado que deve ser inserido é obrigatório -->
+        </div>
+
+        <div class="form-group">
+            <label for="email">EMAIL:</label>
+                <input required placeholder="ex: fulanodasilva@gmail.com" type="email" name="" id="email">
+                <!-- placegolder - texto aux, é aquele textinho fantasma -->
+        </div>
+
+        <div class="form-group">
+            <label for="senha">SENHA:</label>
+                <input required type="password" name=""id="senha">
+                
+        </div>
+
+        <div class="form-group">
+            <label for="data">DATA</label>
+                <input type="date" name="" id="data">
+        </div>
+        <!-- sexo  -->
+        <div class="form-group">
+            <label for="sexo">SEXO</label>
+            <select name="" id="sexo">
+                <option value="">FEMININO</option>
+                <option value="">MASCULINO</option>
+                <option value="">OUTROS</option>
+            </select>
+        </div>
+             <button onclick="mensagem()">CONFIRMAR</button>
+        </form>
+    </main>
+    <SCript>
+        function mensagem(){
+            alert('USUÁRIO CADASTRADO COM SUCESSO!')
+            // mensagem é uma palavra dedicada; funtion é a msm coisa que procedimento no portugol
+        }
+
+    </SCript>   
+</body>
+</html>

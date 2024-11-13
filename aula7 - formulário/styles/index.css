@@ -1,0 +1,56 @@
+*{
+  margin: 0%;
+  padding: 0%;  
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+body{
+    width: 100%;
+    height: 100vh ;
+    /* dependendo da tela, o 100% n vai funcionar, ent devemos usr o vh (viewport) */
+    background-color: rgb(202, 29, 144);
+   /* coloquei todo o meain no centro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 80%;
+    /* coloco algo na altura quando eu souber tudo q deve estar lá, para n bagunçar */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(211, 223, 233);
+    border-radius: 5px;
+}
+
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    /* background-color: brown;*/
+} 
+
+.form-group{
+    width: 200px;
+    /* background-color: chartreuse; */
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+input:focus{
+    padding: 8px;
+    transition: 0,5s;
+    border: 1px solid rgb(223, 11, 170);
+}

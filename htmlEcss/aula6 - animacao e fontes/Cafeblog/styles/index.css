@@ -18,18 +18,38 @@ header {
     color: antiquewhite;
 }
 
-#imagem img{
-    /* width: 10%;
-    height: 20px;
-    display: flex;  
-    justify-content: start;
-    align-items: start; */
-
-    height: 80px;
+#naveg{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(158, 132, 94); 
+    display: flex;
+    justify-content: center; 
+    font-family: serif;
+    line-height: 50px;
+    
+    
 }
 
-/* #nav{
-    
-    flex-direction: row;
-} */
+#naveg nav a{
+    text-decoration: none; 
+}
 
+h2{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(107, 74, 47);
+}
+
+#conteudo{
+    background-color: chocolate;
+    float: center;
+
+
+padding: 50px 25px 0px;
+}
+
+#conteudo img{
+    padding: 50px; 
+}

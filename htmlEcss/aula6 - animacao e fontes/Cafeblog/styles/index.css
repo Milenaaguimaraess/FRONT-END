@@ -26,8 +26,7 @@ header {
     justify-content: center; 
     font-family: serif;
     line-height: 50px;
-    
-    
+       
 }
 
 #naveg nav a{
@@ -42,14 +41,36 @@ h2{
     color: rgb(107, 74, 47);
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
 #conteudo{
-    background-color: chocolate;
+    width: 70%;
+    margin-top: 25px;
+    background-color: rgb(150, 116, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     float: center;
+    padding: 25px;
+    border-radius: 30px;
+}
 
-
-padding: 50px 25px 0px;
+.caixa{
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        border-radius: 10px;
 }
 
 #conteudo img{
-    padding: 50px; 
+    width: 50%;
+    border-radius: 50px; 
+
 }

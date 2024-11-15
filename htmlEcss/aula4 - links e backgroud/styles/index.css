@@ -59,11 +59,11 @@ footer{
 }
 
 #sobrenos{
-    background-color: rgb(224, 229, 238);
+    background-color: rgb(252, 252, 252);
     width: 80%;
     margin: 20px auto;
     padding: 30px;
-    border-radius: 10%;
+    border-radius: 5%;
     box-shadow: 10px 10px 10px;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
@@ -83,6 +83,7 @@ footer{
 #img{
     width: 100%;
     padding: 80px 0px;
+    border-radius: 5px;
 }
 
 .produto{

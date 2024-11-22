@@ -15,22 +15,29 @@ for(var i = 0;i < 3;i++){
 
 //testes()
 
-function carregarCatalogo(){
-    var livros = [
-        "images/81O+VCUMudL._AC_UF1000,1000_QL80_.jpg"
-    ]
-}
-
-
 // quantidades de livros p/ n ter q ficar repetindo o msm bloco de código o tempo todo
 // 6 é a quant. de livros q quero na tela( no meucatalogo)
 // usei o flex wrap no css pra olocar o conteudo em colunas
 function carregarCatalogo(){
-    for (let i = 0;i < 6;i++)
+    var livros = [
+        ["images/livros/acotar.jpg", 'Corte de Nevoa e Fúria'],
+        ['images/livros/quartaAsa.jpg', 'Quarta Asa'],
+        ['images/livros/peagogia1.jpg', 'Pedagogia do Oprimido'],
+        ['images/livros/metamorfose.jpg', 'A metamorfose'],
+        ['images/livros/revolucao.jpg', 'A revolução dos Bichos'],
+        ['images/livros/BmeiaNoite.jpg', 'A biblioteca Da Meia-Noite'],
+        ['images/livros/daisy.jpg', 'Daisy Jones and The Six: Uma história de amor e música'],
+        ['images/livros/papoula.jpg', 'Guerra da Papoula' ],
+        ['images/livros/fauno.jpg', 'O labirinto do fauno' ],
+        ['images/livros/dante.jpg', 'Aristóteles e Dante descobrem os segredos do Universo: 1' ],
+        ['images/livros/semantic.jpg', 'Semantic Error: Livro 2' ],
+    ]
+   
+    livros.forEach(cadaLivro =>{
         document.getElementById('catalogo').innerHTML += `
     <div class="livro">
-        <img src= alt="">
-            <h4>Corte de Nevoa e Fúria</h4>
+        <img src="${cadaLivro[0]}" alt="">
+            <h4>${cadaLivro[1]}</h4>
                 
         <button>
             Resumo
@@ -39,6 +46,8 @@ function carregarCatalogo(){
     </div>
     
     `
+})
+
 }
 
 carregarCatalogo()

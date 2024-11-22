@@ -4,7 +4,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header {
+header{
     display: flex;
 }
 
@@ -73,4 +73,14 @@ main {
     width: 50%;
     border-radius: 50px; 
 
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(104, 59, 29);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
 }

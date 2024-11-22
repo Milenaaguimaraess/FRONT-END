@@ -4,7 +4,7 @@
 }
 
 :root{
-    --corPrimaria:rgb(24, 71, 117);
+    --corPrimaria:rgb(34, 117, 71);
     --corSecundaria: rgb(19, 112, 152) ;
     --branco: rgb(232, 226, 226);
 }
@@ -15,16 +15,16 @@ header, footer{
     padding: 20px 0px;
     display: flex;
     justify-content: space-around;
-    color: antiquewhite;
+    color: rgb(187, 114, 19);
     font-family: Georgia, 'Times New Roman', Times, serif ;
 }
 
 nav{
     display: flex;
     gap: 10px;
+    justify-items: center;
 }
 
-/* para colocar o nome do lado da logo */
 #logo{
     display: flex;
     gap: 20px;
@@ -34,7 +34,6 @@ nav{
 
 #logo img{
     width: 30px;
-
 }
 
 #catalogo{
@@ -47,9 +46,9 @@ nav{
     flex-wrap: wrap; 
 }
 
-.livro{
+.filme{
     width: 200px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(3, 50, 65);
     padding: 5px;
     /* color: var(--branco); */
     display: flex;
@@ -58,8 +57,7 @@ nav{
     gap: 10px;
     border-radius: 15px;
     text-align: center;
-    color: antiquewhite;
-    
+    color: antiquewhite; 
 }
 
 main{
@@ -73,7 +71,8 @@ button{
     padding: 5px; 
 }
 
-.livro img{
+.filme img{
     width: 80%;
     border-radius: 5px;
 }
+

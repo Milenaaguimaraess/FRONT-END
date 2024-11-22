@@ -15,6 +15,12 @@ for(var i = 0;i < 3;i++){
 
 //testes()
 
+function carregarCatalogo(){
+    var livros = [
+        "images/81O+VCUMudL._AC_UF1000,1000_QL80_.jpg"
+    ]
+}
+
 
 // quantidades de livros p/ n ter q ficar repetindo o msm bloco de código o tempo todo
 // 6 é a quant. de livros q quero na tela( no meucatalogo)
@@ -23,7 +29,7 @@ function carregarCatalogo(){
     for (let i = 0;i < 6;i++)
         document.getElementById('catalogo').innerHTML += `
     <div class="livro">
-        <img src="images/81O+VCUMudL._AC_UF1000,1000_QL80_.jpg" alt="">
+        <img src= alt="">
             <h4>Corte de Nevoa e Fúria</h4>
                 
         <button>

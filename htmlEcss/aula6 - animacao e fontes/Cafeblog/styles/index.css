@@ -24,13 +24,16 @@ header{
     background-color: rgb(158, 132, 94); 
     display: flex;
     justify-content: center; 
+    gap: 80px;
     font-family: serif;
     line-height: 50px;
-       
+        
 }
 
 #naveg nav a{
-    text-decoration: none; 
+    text-decoration: none;
+    color: black; 
+    
 }
 
 h2{
@@ -41,7 +44,7 @@ h2{
     color: rgb(209, 168, 133);
 }
 
-main {
+main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,6 +84,6 @@ footer{
     background-color: rgb(104, 59, 29);
     padding: 20px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     color: antiquewhite;
 }

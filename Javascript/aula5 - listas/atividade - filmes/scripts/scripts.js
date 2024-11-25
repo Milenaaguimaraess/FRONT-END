@@ -3,8 +3,8 @@ function carregarCatalogo(){
         ["images/livros/acotar.jpg", 'Como treinar seu dragão'],
         ['images/livros/quartaAsa.jpg', 'Coraline'],
         ['images/livros/peagogia1.jpg', 'A viagem de Chihiro'],
-        ['images/livros/metamorfose.jpg', ''],
-        ['images/livros/revolucao.jpg', ''],
+        ['images/livros/metamorfose.jpg', 'Duna'],
+        ['images/livros/revolucao.jpg', 'Dungeons & Dragons'],
         ['images/livros/BmeiaNoite.jpg', ''],
     ]
    

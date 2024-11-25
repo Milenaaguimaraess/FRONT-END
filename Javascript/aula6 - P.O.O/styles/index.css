@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#bio{
+    background-color: rgb(219, 48, 110);
+    width: 100%; 
+    padding: 40px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#bio img{
+    border-radius: 50%;
+}

@@ -1,10 +1,10 @@
 function carregarCatalogo(){
     var livros = [
-        ["images/livros/acotar.jpg", 'Como treinar seu dragão'],
-        ['images/livros/quartaAsa.jpg', 'Coraline'],
-        ['images/livros/peagogia1.jpg', 'A viagem de Chihiro'],
-        ['images/livros/metamorfose.jpg', 'Duna'],
-        ['images/livros/revolucao.jpg', 'Dungeons & Dragons'],
+        ["images/como_treinar_o_seu_dragao_1_capa.jpg", 'Como treinar seu dragão'],
+        ['images/coraline.jpg', 'Coraline'],
+        ['images/chiriro.jpg', 'A viagem de Chihiro'],
+        ['images/duna.jpg', 'Duna'],
+        ['images/dungeon.jpg', 'Dungeons & Dragons'],
         ['images/livros/BmeiaNoite.jpg', ''],
     ]
    

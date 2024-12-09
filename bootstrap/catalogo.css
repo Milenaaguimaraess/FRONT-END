@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.all{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#AZ{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#container1{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

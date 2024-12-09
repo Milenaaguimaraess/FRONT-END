@@ -9,9 +9,9 @@ class Categoria {
     }
 }
 
-lista_categorias.push(new Categoria('ARVORES DE NATAL', 'images/card1.jpg', 'AS MAIS BONITAS ARVORES DE NATAL PARA SUAS CELEBRAÇÕES DE FIM DE ANO.', 'Arvores de natal originais'))
+lista_categorias.push(new Categoria('Buquês para cada momento', 'images/card1.jpg', 'AS MAIS BONITAS ARVORES DE NATAL PARA SUAS CELEBRAÇÕES DE FIM DE ANO.', 'Arvores de natal originais'))
 
-lista_categorias.push(new Categoria('Enfeites de arvores', 'images/card2.jpg', 'Confira nossa coleção de enfeites para arvores de natal exclusivas e personalizados.', 'enfeites de natal originais'))
+lista_categorias.push(new Categoria('Personalize!', 'images/card2.jpg', 'Confira nossa coleção de enfeites para arvores de natal exclusivas e personalizados.', 'enfeites de natal originais'))
 
 lista_categorias.push(new Categoria('Enfeites gerais', 'images/card3.jpg', 'Confira nossa coleção de enfeites gerais de natal exclusivas e personalizados.', 'enfeites de natal originais'))
 

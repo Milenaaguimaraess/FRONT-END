@@ -3,8 +3,12 @@
     padding: 0%;
 }
 
+body{
+    background-color: rgb(54, 50, 50);
+}
+
 #banner{
-    margin: 20px 0;
+    margin: 20px 20px;
     display: flex;
     justify-content: center;
 }
@@ -17,4 +21,46 @@ h1{
     margin: 40px;
     text-align: center;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+h2{
+    display: flex ;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+#categoriaItems img{
+    border-radius: 10px;
+}
+
+#categoriaItems img:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.carousel-item.active {
+    display: flex;
+    justify-content: center !important;
+}
+
+#mural{
+    margin: 50px 10px;
+    background-color: rgb(146, 44, 146);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: antiquewhite;
+}
+
+#fil{
+    width: 20px 10px;
+    padding: 10px 10px;
+  background-color: aqua; 
+  border-radius: 10px;
+  color: black; 
+  
+
 }

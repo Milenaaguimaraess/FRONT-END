@@ -2,7 +2,8 @@ const lista = {
     'doce' : [
          {
              'nome' : 'Ilha do medo',
-             'Desc' : 'Lorem'
+             'Ingredientes' : '1 caixa de leite condensado; 1 caixa de leite condensado; 1 colher (sopa) de margarina sem sal e chocolate granulado',
+             'Modo de Preparo' : 'Lorem'
          },
          {
              'nome' : 'Bruxa de blair',

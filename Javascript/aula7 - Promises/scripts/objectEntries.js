@@ -37,7 +37,7 @@ const lista = {
         {
             'nome' : 'The last of us',
             'Desc' : 'lorem'
-        }    
+        },    
     ]
 }
 

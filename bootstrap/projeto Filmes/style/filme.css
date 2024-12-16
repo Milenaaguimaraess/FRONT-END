@@ -40,9 +40,8 @@ main h2{
     transition: 0.4s;
 }
 
-.carousel-item.active {
-    display: flex;
-    justify-content: center !important;
+.carousel-item > img {
+    margin: 0 auto;
 }
 
 #mural{

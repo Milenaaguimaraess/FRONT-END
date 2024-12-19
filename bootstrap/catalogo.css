@@ -5,15 +5,20 @@
 
 .all{
     background-color: aqua;
+    margin: 40px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
 #AZ{
     background-color: blueviolet;
+    margin: 20px;
+    border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     
 }
 

@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0%;
     margin: 0%;
 }
@@ -43,14 +43,14 @@ nav{
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; 
-}
+    flex-wrap: wrap;  
+}*/
 
-.filme{
+/* .filme{
     width: 200px;
     background-color: rgb(60, 195, 239);
     padding: 5px;
-    /* color: var(--branco); */
+    color: var(--branco);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,9 +58,9 @@ nav{
     border-radius: 15px;
     text-align: center;
     color: antiquewhite; 
-}
+} */
 
-main{
+/* main{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
@@ -69,10 +69,10 @@ main{
 button{
     display: flex;
     padding: 5px; 
-}
+} */
 
-.filme img{
+/* .filme img{
     width: 80%;
     border-radius: 5px;
-}
+} */
 

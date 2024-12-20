@@ -9,11 +9,11 @@ class Categoria {
     }
 }
 
-lista_categorias.push(new Categoria('Buquês para cada momento', 'images/card1.jpg', 'AS MAIS BONITAS ARVORES DE NATAL PARA SUAS CELEBRAÇÕES DE FIM DE ANO.', 'Arvores de natal originais'))
+lista_categorias.push(new Categoria('Uma bebida para cada momento', 'images/card1.png', 'Do melhor fornecedor para o melhor cliente', 'Usufrua de um bom drink com a Deliflow!'))
 
-lista_categorias.push(new Categoria('Personalize!', 'images/card2.jpg', 'Confira nossa coleção de enfeites para arvores de natal exclusivas e personalizados.', 'enfeites de natal originais'))
+lista_categorias.push(new Categoria('Peça sua favorita!', 'images/card3.png', 'Confira nosso menu de bebidas exclusivas e as mais bombásticas.', 'Menu de bebidas'))
 
-lista_categorias.push(new Categoria('Enfeites gerais', 'images/card3.jpg', 'Confira nossa coleção de enfeites gerais de natal exclusivas e personalizados.', 'enfeites de natal originais'))
+lista_categorias.push(new Categoria('Para todos gostos.', 'images/card2.png', 'Buscamos atender a todos os requisitos de nossos clientes.', 'Proibido o comércio para menores de idade'))
 
 lista_categorias.forEach(categoria => {
     document.querySelector('#categoriaItems').innerHTML += `

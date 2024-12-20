@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+#estreias {
+    width: 80%;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: rgba(135, 14, 14, 0.527);
+    border-radius: 20px;
+}
+
+#card {
+    background-color: rgb(18, 22, 22);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#card:hover {
+    transform: scale(1.08);
+    transition: 0.2s;
+}
+
+#card img {
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+#card h3, h5{
+    color: beige;
+}
+
+button {
+    padding: 10px;
+    background-color: rgba(234, 213, 26, 0.838);
+    border-style: groove;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+footer{
+    margin: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}

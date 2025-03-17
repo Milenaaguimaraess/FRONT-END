@@ -1,0 +1,43 @@
+*{
+    margin: 0%; 
+   padding: 0%;
+}
+
+body{
+    background-color: crimson;
+}
+
+h1{
+    text-align: center;
+    color: #3d9793;
+}
+
+.lista{
+    background-color: rgb(241, 158, 209);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+    /* background-color: #ffffff; */
+    padding: 20px;
+}
+
+.itens{
+    /* background-color: aquamarine; */
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+a {
+    display: block;
+    margin-bottom: 10px;
+    color: #050505;
+    text-decoration: none;
+}
+
+#delete{
+    
+}

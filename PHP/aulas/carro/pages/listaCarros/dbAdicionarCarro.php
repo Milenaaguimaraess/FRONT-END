@@ -2,7 +2,7 @@
 <!-- <h1>você adicionou um novo carro!</h1> -->
 
 <?php
-// defende de comandos que podem alteral o db
+// defende de comandos que podem alterar o db
 $modelo = mysqli_real_escape_string($conexao,$_POST['modelo']);
 $marca = mysqli_real_escape_string($conexao,$_POST['marca']);
 $valor = mysqli_real_escape_string($conexao,$_POST['valor']);

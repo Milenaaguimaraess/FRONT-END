@@ -28,10 +28,13 @@
             <td><?=$dados['valorCarro'] ?></td>
             <td><?=$dados['anoCarro'] ?></td>
             <td><?=$dados['corCarro'] ?></td>
+            <!-- <td><a href="#">Editar</a></td> -->
+            <!-- CASO TENHA BOOTSTRAP USAR O TREM ABAIXO, SE N, USAR O DE CIMA QUE 
+             FICA A MSM COISA -->
+            <!-- & -> linka algo a mais além da pagina chamada, no caso está chamando id de cada carro -->
+            <td><a href="index.php?menu=editarCarro&idCarro=<?=$dados['idCarro']?>" class="btn btn-primary">Editar</a></td>
         </tr>
         <?php
     }
     ?>
-
-
 </table>

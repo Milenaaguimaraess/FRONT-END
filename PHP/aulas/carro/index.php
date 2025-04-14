@@ -50,6 +50,9 @@
                 case 'dbEditarCarro':
                     include("pages/listaCarros/dbEditarCarro.php");
                     break;
+                    case 'deletarCarro':
+                        include("pages/listaCarros/deletarCarro.php");
+                        break;
                 // caso a função n estrja configurada, voltamos pra pg do home
             default:
                 include("pages/home/home.php");

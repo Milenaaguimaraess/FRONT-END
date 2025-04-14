@@ -1,5 +1,5 @@
 <?php
-    include('db/conexao.php');
+    include_once('db/conexao.php');
 ?>
 
 <!DOCTYPE html>
@@ -14,6 +14,7 @@
         <nav>
         <a href="index.php?menu=home">Home</a>
             <a href="index.php?menu=cadastro">Cadastro</a>
+            <!-- mudar ou add algo relacionado a cadastro pra parar de bugar -->
           
         </nav>
         <h1>Our Library</h1>
@@ -21,7 +22,6 @@
 
     <main>
         <?php
-        // caso a pag seja home, eu chamo o arquivo do home, se for lista, chamo o arqv lista, se for bug, n chamo nenhum 
         if(isset($_GET['menu'])){
             $pagina = $_GET['menu'];
         }else{
@@ -33,18 +33,19 @@
                 include("pages/home/home.php");
                 break;
             case 'lista':
-                include("pages/cadastro/listalivros.php");
+                include("pages/listaLivros/listalivros.php");
                 break;
             case 'adicionarlivros':
-                include("pages/cadastro/adicionarlivros.php");
+                include("pages/listaLivros/adicionarlivros.php");
                 break;
             case 'dblistalivros':
-                include("pages/cadastro/dbAdicionarlivros");
+                include("pages/listaLivros/dbAdicionarlivros");
                 break;
             default:
                 include("index.php");
                 break; 
-        }
+            }
+
         ?>
     </main>
     

@@ -8,6 +8,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="styles/index.css">
+    
 </head>
 <body>
     <header>
@@ -35,14 +37,14 @@
             case 'lista':
                 include("pages/listaLivros/listalivros.php");
                 break;
-            case 'adicionarlivros':
+            case 'cadastro':
                 include("pages/listaLivros/adicionarlivros.php");
                 break;
             case 'dblistalivros':
                 include("pages/listaLivros/dbAdicionarlivros");
                 break;
             default:
-                include("index.php");
+                include("pages/home/home.php");
                 break; 
             }
 

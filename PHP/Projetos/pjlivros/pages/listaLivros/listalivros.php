@@ -1,8 +1,8 @@
 <h2>Adicione novos livros aqui</h2>
 
-<a href="index.php?menu=adicionarlivros">
+<!-- <a href="index.php?menu=adicionarlivros">
     <button type="button">Adicionar livros</button>
-</a>
+</a> -->
        
     <?php
     //UTILIZANDO BANCO DE DADOS

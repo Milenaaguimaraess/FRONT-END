@@ -1,0 +1,189 @@
+header {
+    background-color: #5a3921; /* Cor marrom escuro */
+    /* padding: 1.5rem 2rem; */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    /* z-index: 100; */
+}
+
+header h1 {
+    color: #f8f4e9; /* Cor bege claro */
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 1rem 0;
+    font-family: 'Playfair Display', serif;
+    /* letter-spacing: 2px; */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para a Navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #f8f4e9;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f4e9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+}
+
+h2 {
+    color: #5a3921;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #c9a66b;
+    padding-bottom: 15px;
+}
+
+/* Botão de Adicionar Livros */
+button {
+    background-color: #5a3921;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #c9a66b;
+    transform: translateY(-2px);
+}
+
+/* Container dos Livros */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    /* text-align:left; */
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Imagem do Livro */
+.container img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Título do Livro */
+.titulo {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #5a3921;
+    margin-bottom: 10px;
+}
+
+/* Descrição e Avaliação */
+.container p {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+    .livros-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 25px;
+    }
+    
+    .container {
+        margin-bottom: 0;
+    }
+}
+
+/* Estilos para o formulário */
+h1 {
+    color: #5a3921;
+    text-align: center;
+    margin: 2rem 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #5a3921;
+    font-weight: 500;
+    font-size: 1.1rem;
+}

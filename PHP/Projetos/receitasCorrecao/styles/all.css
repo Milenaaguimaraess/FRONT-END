@@ -1,0 +1,36 @@
+:root{
+    --corPrimaria: #590202;
+    --corSecundaria: #733049;
+    --corTerciaria: #F2B366;
+    --verm1: #F23030;
+    --marromclaro: #F2C791;
+}
+
+body{
+    background-color: var(--corTerciaria);
+}
+
+header{
+    background-color: var(--corPrimaria);
+}
+
+a{
+    color: var(--marromclaro)!important;
+}
+
+h1,h2,h3,h4{
+    color: var(--corSecundaria);
+}
+
+#bg_banner{
+    /* container-fluid -> é largura */
+    height: 300px!important;
+    background-image: url(https://www.prazeresdamesa.com.br/wp-content/uploads/2021/12/MG_7913Rjcastilho-e1640360956340.jpg);
+    background-position:center;
+    /* background-position: ; -> n é fixo, depende da imagem e tal */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 0px;
+    border-radius: 10px;
+
+}

@@ -1,9 +1,13 @@
-const Alerta=()=> {
+import './Alerta.css'
+
+const Alerta=(props)=> {
     return(
         <>
-        OI
+        <div className="alert">
+          {props.msg}
+        </div>
         </>
     )
-}
+} 
 
 export default Alerta

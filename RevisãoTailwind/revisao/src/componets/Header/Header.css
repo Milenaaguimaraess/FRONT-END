@@ -1,2 +1,31 @@
 @import "tailwindcss";
 
+:root{
+    --primaria : rgb(179, 133, 35) ;
+    --branco : rgb(255, 255, 255) ;
+    --preto : rgb(0, 0, 0) ;
+    --pretoTransparent : rgba(29, 29, 29, 0.74) ;
+}
+
+header{
+    justify-content: space-around;
+    padding: 20px 20px;
+    background-color: var(--primaria);
+    /* margin: 20px auto; */
+}
+header h2{
+    color: var(--branco);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14pt;
+}

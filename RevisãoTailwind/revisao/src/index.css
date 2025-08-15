@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 *{
-    padding: 0%;
+    /* padding: 0%; */
     margin: 0%;
 }
 
@@ -30,16 +30,16 @@ nav a{
 
 :root{
     --primaria : rgb(179, 133, 35) ;
-    --branco : rgb(221, 221, 221) ;
+    --branco : rgb(255, 255, 255) ;
     --preto : rgb(0, 0, 0) ;
     --pretoTransparent : rgba(29, 29, 29, 0.74) ;
 }
 
 header{
     justify-content: space-around;
-    padding: 20px 0px;
+    padding: 20px 20px;
     background-color: var(--primaria);
-    margin: 20px auto;
+    /* margin: 20px auto; */
 }
 header h2{
     color: var(--branco);

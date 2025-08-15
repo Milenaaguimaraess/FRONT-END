@@ -5,7 +5,7 @@ import App from './App.jsx'
 import Header from './componets/Header/Header.jsx';
 import Alerta from './componets/Alerta/Alerta.jsx';
 import Catalogo from './components/Catalogo/Catalogo.jsx';
-import { createBrowaerRouter, RouterProvider} from "react-router-dom"
+import { createBrowserRouter, RouterProvider} from "react-router-dom"
  
 
 const router = createBrowserRouter([

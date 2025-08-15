@@ -5,6 +5,7 @@ function Header() {
   return (
     <header className='w-full p-3 bg-violet-400 flex justify-between'>
       {/* header esquerda */}
+      <h2>PaperTwo</h2>
       <div className='logo'>
         <img src={Logo} />
       </div>
